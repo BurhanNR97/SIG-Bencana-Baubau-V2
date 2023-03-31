@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.UbahAkun"
+    android:background="#ffffff">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginRight="16dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btnBackUbahAkun"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_back"/>
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/_14sdp"
+                android:text="Ubah Data"/>
+            <Button
+                android:id="@+id/btnSimpanUbahAkun"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_cek"/>
+        </LinearLayout>
+    </Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <EditText
+            android:paddingRight="@dimen/_20sdp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/Edit_kdAkun"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/bg_input"
+            android:textSize="@dimen/_12sdp"
+            android:hint="NIK"
+            android:textStyle="bold"
+            android:paddingLeft="@dimen/_20sdp"/>
+        <EditText
+            android:paddingRight="@dimen/_20sdp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/Edit_username"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/bg_input"
+            android:textSize="@dimen/_12sdp"
+            android:hint="Username"
+            android:paddingLeft="@dimen/_20sdp"/>
+
+        <EditText
+            android:paddingRight="@dimen/_20sdp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/Edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/bg_input"
+            android:textSize="@dimen/_12sdp"
+            android:hint="Password"
+            android:paddingLeft="@dimen/_20sdp"/>
+    </LinearLayout>
+</LinearLayout>

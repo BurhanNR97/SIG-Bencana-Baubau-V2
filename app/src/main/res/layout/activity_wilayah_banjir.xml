@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.WilayahBanjir"
+    android:background="#ffffff">
+
+    <Toolbar
+        android:id="@+id/toolbarwilayahbanjir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginRight="16dp"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="30dp"
+                android:id="@+id/backFromWIlayahbanjir"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_back"/>
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/_14sdp"
+                android:text="Data Wilayah Banjir" />
+            <Button
+                android:id="@+id/btnTambahWilayahBanjir"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_baseline_add_24"
+                android:layout_marginRight="15dp"/>
+        </LinearLayout>
+    </Toolbar>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Cari"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:background="@drawable/bg_cari"/>
+
+    <ListView
+        android:id="@+id/listWilayahBanjir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:drawSelectorOnTop="true"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"/>
+
+</LinearLayout>

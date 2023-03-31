@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "197374776483",
+    "project_id": "sig-bencana-baubau",
+    "storage_bucket": "sig-bencana-baubau.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197374776483:android:40a7a8c7c005ab6eebdb16",
+        "android_client_info": {
+          "package_name": "com.sig.baubau"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197374776483-qaa9l7disotgc944mcmuvuis6p6i3g6u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sig.baubau",
+            "certificate_hash": "d436b71f3bc42f30232c4c985b41ae215eda9eeb"
+          }
+        },
+        {
+          "client_id": "197374776483-sp05df75uf42v21n77uu0pim224msbhj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAolfpEHFMjni_q8aLxbFwh0fMXpDnvJOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197374776483-sp05df75uf42v21n77uu0pim224msbhj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

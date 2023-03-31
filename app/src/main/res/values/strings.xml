@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bencana Alam Bau Bau</string>
+    <string name="halaman_login">HALAMAN LOGIN</string>
+    <string name="gambar_kota_baubau">Gambar Kota Baubau</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
